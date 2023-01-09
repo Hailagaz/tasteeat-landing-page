@@ -1,0 +1,20 @@
+@import "tools/_nulling.scss";
+
+@import "sections/header.scss";
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	margin: auto;
+	overflow-x: hidden;
+}
+
+main {
+	margin: 0px auto 0px auto;
+}
