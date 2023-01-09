@@ -1,2 +1,5 @@
 # tasteeat-landing-page
-Landing page using bootstrap
+
+## Project in progress
+
+#### Landing page using bootstrap
