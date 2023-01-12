@@ -1,12 +1,17 @@
-.header {
-	.header__welcome {
-		background-color: #292E36;
-		background-image: url(src/images/header_brand.svg);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: contain;
+header {
+	.header__welcome-container {
+		padding-top: 50px;
+		padding-bottom: 50px;
 
-		//height: 100%;
-		//max-height: 288px;
+		img {
+			object-fit: fill;
+			height: 188px;
+		}
+
+		a {
+			max-width: 295px;
+			width: 100%;
+			height: 74px;
+		}
 	}
 }

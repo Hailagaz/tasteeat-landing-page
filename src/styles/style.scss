@@ -1,8 +1,10 @@
 @import "tools/_nulling.scss";
 @import "tools/_variables.scss";
+@import "tools/_buttons.scss";
 
 @import "sections/header.scss";
 @import "sections/footer.scss";
+
 html,
 body {
 	scroll-behavior: smooth;

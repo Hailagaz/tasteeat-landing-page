@@ -25,14 +25,12 @@
 
 <body class="d-flex flex-column h-100">
 	<header id="header" class="header">
-		<div class="d-flex bg-dark header__welcome">
-			<div class="container d-flex justify-content-between">
-				<button class="btn btn-outline-warning">
-					<a href="tel: 123 456 789">Call - 123 456 789</a>
-				</button>
-				<button class="btn btn-warning">
-					<a href="#reservation">Reservation</a>
-				</button>
+		<div class="d-flex bg-dark text-center header__welcome">
+			<div class="container d-flex justify-content-between position-relative header__welcome-container">
+				<img class="position-absolute top-50 start-50 translate-middle" src="/src/images/header_brand.svg"
+					alt="Brand logotype">
+				<a class="btn btn-outline-warning" href="tel: 123 456 789">Call - 123 456 789</a>
+				<a class="btn btn-warning" href="#reservation">Reservation</a>
 			</div>
 		</div>
 		<!-- To fix navbar on top add class fixed-top -->
