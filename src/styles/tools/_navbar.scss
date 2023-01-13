@@ -1,6 +1,21 @@
-nav {
-	.navbar-toggler {
-		border-radius: 0;
-		border-color: #E1B168;
+#header {
+	nav {
+		.navbar-toggler {
+			border-radius: 0;
+			border-color: #E1B168;
+		}
+
+		a {
+			color: #ffffff;
+			transition: color .3s ease-in-out,
+		}
+		a:hover {
+			color: #E1B168;
+		}
 	}
+
+	.active {
+		color: #E1B168;
+	}
+
 }

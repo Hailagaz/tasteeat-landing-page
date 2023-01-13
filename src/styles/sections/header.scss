@@ -1,5 +1,5 @@
 .header {
-	&__welcome-container {
+	&__welcome {
 		img {
 			object-fit: fill;
 			height: 188px;
@@ -8,11 +8,23 @@
 		a {
 			max-width: 295px;
 			width: 100%;
-			
+		}
+
+		#header__reserve {
+			color: #292E36;
+			background-color: #E1B168;
+			box-shadow: inset 0 0 0 0 #ffffff;
+			transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+		}
+
+		#header__reserve:hover {
+			color: #E1B168;
+			box-shadow: inset 100vw 0 0 0 #ffffff;
 		}
 	}
+
 	@media screen and (max-width: 767px) {
-		&__welcome-container {
+		&__welcome {
 			img {
 				object-fit: cover;
 				height: 100%;
