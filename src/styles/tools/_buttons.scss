@@ -1,1 +1,13 @@
-// Choose same rules for all buttons and links
+#body .btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.44px;
+
+	height: 74px;
+}
