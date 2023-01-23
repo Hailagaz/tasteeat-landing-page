@@ -1,9 +1,17 @@
-.menu {
-	
-	&__dishes {
-		
-	}
+#body #menu__head {
+	border-color: #E1B168 !important;
 }
-#body #menu__special {
-	color: #cc1d1d;
+
+#body #menu__link-full {
+	color: #E1B168;
+}
+
+#body #menu__link-full:hover {
+	color: #292E36;
+}
+
+@media screen and (min-width:992px) {
+	#body #menu__link-full {
+		max-width: 255px;
+	}
 }
