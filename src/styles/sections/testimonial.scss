@@ -1,0 +1,10 @@
+.testimonial {
+	&__photo {
+		position: relative;
+		&__sign {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+}
