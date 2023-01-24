@@ -35,7 +35,8 @@
 			</div>
 		</div>
 		<!-- To fix navbar on top add class fixed-top -->
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark border-top">
+		<!-- Why sticky-top doesn't work in bootstrap??? -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark border-top sticky-top">
 			<div class="container">
 				<!-- <a class="navbar-brand" href="#">Brand namer</a> -->
 				<button class="navbar-toggler ms-auto ms-md-0" type="button" data-bs-toggle="collapse"
@@ -400,7 +401,6 @@
 					<p>We love to hear from customers, so please leave a comment or say hello in an email.</p>
 				</div>
 				<div class="row">
-					<!-- Add bootstrap carousel -->
 					<div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
 						<div class="carousel-indicators">
 							<button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
@@ -416,12 +416,11 @@
 									<div class="carousel-caption text-start bg-info p-0">
 										<div class="d-flex align-items-center justify-content-center justify-content-lg-start">
 											<div class="testimonial__photo">
-												<img src="src/images/testimonial_sign.png" class="testimonial__sign"
-													alt="Sign of client originality">
+												<!-- <img src="src/images/testimonial_sign.png" class="testimonial__sign"
+													alt="Sign of client originality"> -->
 												<img src="src/images/testimonial_client_1.png" class="roudeed-circle me-3"
 													alt="Photo of client">
 											</div>
-
 											<div class="">
 												<p class="m-0 mb-1">Natasha D</p>
 												<p class="m-0">New York</p>
@@ -435,29 +434,47 @@
 									</div>
 								</div>
 							</div>
-							<div class="carousel-item">
-								<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-									aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-									<rect width="100%" height="100%" fill="#777" />
-								</svg>
+							<div class="carousel-item col-lg-4">
 								<div class="container">
-									<div class="carousel-caption">
-										<h1>Another example headline.</h1>
-										<p>Some representative placeholder content for the second slide of the carousel.</p>
-										<p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+									<div class="carousel-caption text-start bg-info p-0">
+										<div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+											<div class="testimonial__photo">
+												<!-- <img src="src/images/testimonial_sign.png" class="testimonial__sign"
+																				alt="Sign of client originality"> -->
+												<img src="src/images/testimonial_client_2.png" class="roudeed-circle me-3" alt="Photo of client">
+											</div>
+											<div class="">
+												<p class="m-0 mb-1">Jack Sparrow</p>
+												<p class="m-0">Salt Lake City</p>
+											</div>
+										</div>
+										<p class="mt-3 mb-0 pt-3 border-top">
+											They known for its fabulous taste and food. Anywhere you go your hunger is satisfied.
+											The best chicken & burgers those
+											are yummy.
+										</p>
 									</div>
 								</div>
 							</div>
-							<div class="carousel-item">
-								<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-									aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-									<rect width="100%" height="100%" fill="#777" />
-								</svg>
+							<div class="carousel-item col-lg-4">
 								<div class="container">
-									<div class="carousel-caption text-end">
-										<h1>One more for good measure.</h1>
-										<p>Some representative placeholder content for the third slide of this carousel.</p>
-										<p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+									<div class="carousel-caption text-start bg-info p-0">
+										<div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+											<div class="testimonial__photo">
+												<!-- <img src="src/images/testimonial_sign.png" class="testimonial__sign"
+																				alt="Sign of client originality"> -->
+												<img src="src/images/testimonial_client_3.png" class="roudeed-circle me-3" alt="Photo of client">
+											</div>
+											<div class="">
+												<p class="m-0 mb-1">Martin Lucas</p>
+												<p class="m-0">San Diego</p>
+											</div>
+										</div>
+										<p class="mt-3 mb-0 pt-3 border-top">
+											They known for its fabulous taste and food. Anywhere you go your hunger is satisfied.
+											The best chicken & burgers those
+											are yummy.
+										</p>
 									</div>
 								</div>
 							</div>
