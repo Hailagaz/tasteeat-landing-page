@@ -17,7 +17,6 @@ html,
 body {
 	scroll-behavior: smooth;
 }
-
 body {
 	font-family: 'Josefin Sans', sans-serif;
 	font-style: normal;
@@ -25,13 +24,4 @@ body {
 	margin: auto;
 	overflow-x: hidden !important;
 }
-
-main {
-	//margin: 0px auto 0px auto;
-}
-
-.container {
-	width: auto;
-	max-width: $content_width;
-	padding: 0 $content_padding;
-}
+main {}
