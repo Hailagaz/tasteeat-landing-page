@@ -22,3 +22,12 @@
 #body .carousel-item {
 	height: 350px;
 }
+
+#body .carousel-indicators [data-bs-target] {
+	background-clip: inherit;
+	border-radius: 10px;
+	width: 20px;
+	height: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+}
