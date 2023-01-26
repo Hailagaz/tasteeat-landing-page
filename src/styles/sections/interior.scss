@@ -1,0 +1,13 @@
+.interior {
+	max-height: 600px;
+	height: 100%;
+
+	&__parallax {
+		min-height: 600px;
+		background-image: url(../src/images/interior_bg.png);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
