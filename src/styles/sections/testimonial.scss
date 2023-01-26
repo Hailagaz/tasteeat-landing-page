@@ -3,4 +3,19 @@
 		height: 100%;
 		max-height: 300px;
 	}
+
+	&__photo {
+		img {
+			max-width: 113px;
+			width: 100%;
+			max-height: 113px;
+			height: 100%;
+			border-radius: 50%;
+		}
+
+		width: 113px;
+		height: 113px;
+		background-color: #918e8e;
+		border-radius: 50%;
+	}
 }
