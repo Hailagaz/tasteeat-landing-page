@@ -1,0 +1,13 @@
+#body #popular__link-full {
+	color: #E1B168;
+}
+
+#body #popular__link-full:hover {
+	color: #292E36;
+}
+
+@media screen and (min-width:992px) {
+	#body #popular__link-full {
+		max-width: 255px;
+	}
+}
