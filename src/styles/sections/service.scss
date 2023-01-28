@@ -1,6 +1,7 @@
-.service {
+#body .service {
 	&__item {
-		width: 100%;
-		max-width: 250px;
+		width: 250px !important;
+		height: 250px !important;
+		border-width: 15px !important;
 	}
 }
