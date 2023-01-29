@@ -26,12 +26,15 @@
 <body id="body" class="d-flex flex-column min-vh-100">
 	<header id="header" class="header">
 		<div class="d-flex bg-dark text-center header__container">
-			<div
-				class="container py-5 my-5 d-flex gap-5 flex-wrap justify-content-center justify-content-md-between position-relative header__welcome">
-				<img class="position-absolute top-50 start-50 translate-middle img-fluid" src="src/images/header_brand.svg"
-					alt="Brand logotype">
-				<a class="btn" href="tel: 123 456 789">Call - 123 456 789</a>
-				<a class="btn" id="header__reserve" href="#reservation">Reservation</a>
+			<div class="container">
+				<div
+					class="py-5 my-5 d-flex gap-5 flex-wrap justify-content-center justify-content-md-between position-relative header__welcome">
+					<img class="position-absolute top-50 start-50 translate-middle img-fluid"
+						src="src/images/header_brand.svg" alt="Brand logotype">
+					<a class="btn" href="tel: 123 456 789">Call - 123 456 789</a>
+					<a class="btn" id="header__reserve" href="#reservation">Reservation</a>
+				</div>
+
 			</div>
 		</div>
 		<!-- To fix navbar on top add class fixed-top -->
@@ -402,7 +405,7 @@
 				</div>
 				<div class="row">
 					<!-- To set auto-scroll slides need to add  in div below: data-bs-ride="carousel" -->
-					<div id="testimonialCarousel" class="carousel slide" data-mdb-items="2">
+					<div id="testimonialCarousel" class="carousel slide" data-mdb-items="2" data-bs-ride="carousel">
 						<div class="carousel-indicators">
 							<button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
 								aria-current="true" aria-label="Slide 1"></button>
@@ -553,12 +556,12 @@
 						</div>
 						<button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
 							data-bs-slide="prev">
-							<span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 							<span class="visually-hidden">Previous</span>
 						</button>
 						<button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
 							data-bs-slide="next">
-							<span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
 							<span class="visually-hidden">Next</span>
 						</button>
 					</div>
