@@ -12,9 +12,10 @@
 	}
 }
 
-.popular {
+#body .popular {
 	&__dish {
 		max-width: 315px !important;
-		width: 100%;
+		width: 100% !important;
+		min-width: 222px !important;
 	}
 }
