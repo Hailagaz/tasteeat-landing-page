@@ -26,18 +26,14 @@
 <body id="body" class="d-flex flex-column min-vh-100">
 	<header id="header" class="header bg-dark">
 		<div class="container">
-			<div class="d-flex text-center header__container">
-				<div
-					class="py-5 my-5 d-flex gap-5 flex-wrap justify-content-center justify-content-md-between position-relative header__welcome">
-					<img class="position-absolute top-50 start-50 translate-middle img-fluid"
-						src="src/images/header_brand.svg" alt="Brand logotype">
-					<a class="btn" href="tel: 123 456 789">Call - 123 456 789</a>
-					<a class="btn" id="header__reserve" href="#reservation">Reservation</a>
-				</div>
+			<div
+				class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center my-5 header__content">
+				<a class="btn" href="tel: 123 456 789">Call - 123 456 789</a>
+				<a class="btn" id="header__reserve" href="#reservation">Reservation</a>
 			</div>
 			<!-- To fix navbar on top add class fixed-top -->
 			<!-- Why sticky-top doesn't work in bootstrap??? -->
-			<nav class="navbar navbar-expand-md navbar-dark bg-dark border-top sticky-top">
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark border-top sticky-top header__navbar">
 				<!-- <a class="navbar-brand" href="#">Brand namer</a> -->
 				<button class="navbar-toggler ms-auto ms-md-0" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
