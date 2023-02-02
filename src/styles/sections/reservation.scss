@@ -23,6 +23,8 @@
 			font-size: 22px;
 			line-height: 33px;
 			letter-spacing: 0.2px;
+			border-radius: 0;
+			border-color: #858585;
 		}
 
 		input::placeholder {
@@ -44,6 +46,9 @@
 		color: #ffffff;
 		box-shadow: inset 100vw 0 0 0 #E1B168;
 	}
-	&__invalid {
+	&__invalid {}
+	
+	i {
+		background-color: #ffffff;
 	}
 }
