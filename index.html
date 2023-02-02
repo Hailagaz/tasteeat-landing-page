@@ -812,7 +812,7 @@
 									<label for="reservation__fullName" class="form-label visually-hidden">Name</label>
 									<input type="text" class="form-control" id="reservation__fullName" placeholder="Name"
 										value="" required>
-									<div class="invalid-feedback">
+									<div class="invalid-feedback reservation__invalid">
 										Valid full name is required.
 									</div>
 								</div>
@@ -820,7 +820,7 @@
 									<label for="reservation__email" class="form-label visually-hidden">Email</label>
 									<input type="email" class="form-control" id="reservation__email" placeholder="Email"
 										required>
-									<div class="invalid-feedback">
+									<div class="invalid-feedback reservation__invalid">
 										Valid email address is required.
 									</div>
 								</div>
@@ -828,7 +828,7 @@
 									<label for="reservation__persons" class="form-label visually-hidden">Persons</label>
 									<input type="number" class="form-control" id="reservation__persons" placeholder="Persons"
 										value="" required>
-									<div class="invalid-feedback">
+									<div class="invalid-feedback reservation__invalid">
 										Valid amount of persons is required.
 									</div>
 								</div>
@@ -836,7 +836,7 @@
 									<label for="reservation__timing" class="form-label visually-hidden">Timing</label>
 									<input type="time" class="form-control" id="reservation__timing" placeholder="Timing"
 										value="" required>
-									<div class="invalid-feedback">
+									<div class="invalid-feedback reservation__invalid">
 										Valid timing hours is required.
 									</div>
 								</div>
@@ -844,12 +844,12 @@
 									<label for="reservation__date" class="form-label visually-hidden">Date</label>
 									<input type="date" class="form-control" id="reservation__date" placeholder="Date" value=""
 										required>
-									<div class="invalid-feedback">
+									<div class="invalid-feedback reservation__invalid">
 										Valid reservation date is required.
 									</div>
 								</div>
 								<div class="d-grid d-md-flex gap-2 justify-content-center">
-									<button class="btn" type="submit">Book a Table</button>
+									<button class="btn" type="submit" id="reservation__submit">Book a Table</button>
 								</div>
 						</form>
 					</div>
