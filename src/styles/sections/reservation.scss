@@ -7,9 +7,9 @@
 	background-size: cover;
 
 	&__container {
-		width: 900px !important;
-		height: 900px;
-		background-color: rgba($color: #858585, $alpha: 0.5) !important;
+		width: 100% !important;
+		height: 650px;
+		background: rgba(41, 46, 54, 0.95);
 	}
 
 	form {
