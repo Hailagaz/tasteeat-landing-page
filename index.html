@@ -806,46 +806,54 @@
 					<h4>Book Your Table</h4>
 				</div>
 				<div class="row">
-					<form class="needs-validation" novalidate>
-						<div class="row g-3">
-							<div class="col-sm-6">
-								<label for="reservation__fullName" class="form-label">Name</label>
-								<input type="text" class="form-control" id="reservation__fullName" placeholder="Name" value="" required>
-								<div class="invalid-feedback">
-									Valid full name is required.
+					<div class="reservation__container">
+						<form class="needs-validation" novalidate>
+							<div class="row g-5">
+								<div class="col-12 col-md-6">
+									<label for="reservation__fullName" class="form-label visually-hidden">Name</label>
+									<input type="text" class="form-control" id="reservation__fullName" placeholder="Name"
+										value="" required>
+									<div class="invalid-feedback">
+										Valid full name is required.
+									</div>
 								</div>
-							</div>
-							<div class="col-sm-6">
-								<label for="reservation__email" class="form-label">Email</label>
-								<input type="email" class="form-control" id="reservation__email" placeholder="Email" required>
-								<div class="invalid-feedback">
-									Please enter a valid email address for shipping updates.
+								<div class="col-12 col-md-6">
+									<label for="reservation__email" class="form-label visually-hidden">Email</label>
+									<input type="email" class="form-control" id="reservation__email" placeholder="Email"
+										required>
+									<div class="invalid-feedback">
+										Valid email address is required.
+									</div>
 								</div>
-							</div>
-							<div class="col-sm-4">
-								<label for="reservation__persons" class="form-label">Persons</label>
-								<input type="text" class="form-control" id="reservation__persons" placeholder="Persons" value="" required>
-								<div class="invalid-feedback">
-									Valid full name is required.
+								<div class="col-12 col-md-4">
+									<label for="reservation__persons" class="form-label visually-hidden">Persons</label>
+									<input type="number" class="form-control" id="reservation__persons" placeholder="Persons"
+										value="" required>
+									<div class="invalid-feedback">
+										Valid amount of persons is required.
+									</div>
 								</div>
-							</div>
-							<div class="col-sm-4">
-								<label for="reservation__timing" class="form-label">Timing</label>
-								<input type="text" class="form-control" id="reservation__timing" placeholder="Timing" value="" required>
-								<div class="invalid-feedback">
-									Valid full name is required.
+								<div class="col-12 col-md-4">
+									<label for="reservation__timing" class="form-label visually-hidden">Timing</label>
+									<input type="time" class="form-control" id="reservation__timing" placeholder="Timing"
+										value="" required>
+									<div class="invalid-feedback">
+										Valid timing hours is required.
+									</div>
 								</div>
-							</div>
-							<div class="col-sm-4">
-								<label for="reservation__date" class="form-label">Date</label>
-								<input type="text" class="form-control" id="reservation__date" placeholder="Date" value="" required>
-								<div class="invalid-feedback">
-									Valid full name is required.
+								<div class="col-12 col-md-4">
+									<label for="reservation__date" class="form-label visually-hidden">Date</label>
+									<input type="date" class="form-control" id="reservation__date" placeholder="Date" value=""
+										required>
+									<div class="invalid-feedback">
+										Valid reservation date is required.
+									</div>
 								</div>
-							</div>
-							<hr class="my-4">
-							<button class="btn" type="submit">Continue to checkout</button>
-					</form>
+								<div class="d-grid d-md-flex gap-2 justify-content-center">
+									<button class="btn" type="submit">Book a Table</button>
+								</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>
