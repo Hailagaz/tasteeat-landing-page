@@ -1,10 +1,16 @@
-.reservation {
+#body .reservation {
 	min-height: 1000px;
 	background-image: url(../src/images/reservation_bg.png);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	&__container {
+		width: 900px !important;
+		height: 700px;
+		background-color: rgba($color: #858585, $alpha: 0.5) !important;
+	}
 
 	form {
 		max-width: 640px;
