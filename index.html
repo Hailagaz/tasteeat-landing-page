@@ -795,7 +795,60 @@
 				</div>
 			</div>
 		</section>
-		<section id="reservation" class="reservation"></section>
+		<section id="reservation" class="reservation text-white d-flex justify-content-center align-items-center">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="text-uppercaser">
+						<span class="border-top border-bottom headers text-uppercase">Reservation</span>
+					</h2>
+				</div>
+				<div class="row mt-2 mb-4 text-center">
+					<h4>Book Your Table</h4>
+				</div>
+				<div class="row">
+					<form class="needs-validation" novalidate>
+						<div class="row g-3">
+							<div class="col-sm-6">
+								<label for="reservation__fullName" class="form-label">Name</label>
+								<input type="text" class="form-control" id="reservation__fullName" placeholder="Name" value="" required>
+								<div class="invalid-feedback">
+									Valid full name is required.
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<label for="reservation__email" class="form-label">Email</label>
+								<input type="email" class="form-control" id="reservation__email" placeholder="Email" required>
+								<div class="invalid-feedback">
+									Please enter a valid email address for shipping updates.
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<label for="reservation__persons" class="form-label">Persons</label>
+								<input type="text" class="form-control" id="reservation__persons" placeholder="Persons" value="" required>
+								<div class="invalid-feedback">
+									Valid full name is required.
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<label for="reservation__timing" class="form-label">Timing</label>
+								<input type="text" class="form-control" id="reservation__timing" placeholder="Timing" value="" required>
+								<div class="invalid-feedback">
+									Valid full name is required.
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<label for="reservation__date" class="form-label">Date</label>
+								<input type="text" class="form-control" id="reservation__date" placeholder="Date" value="" required>
+								<div class="invalid-feedback">
+									Valid full name is required.
+								</div>
+							</div>
+							<hr class="my-4">
+							<button class="btn" type="submit">Continue to checkout</button>
+					</form>
+				</div>
+			</div>
+		</section>
 	</main>
 
 	<footer id="footer" class="footer mt-auto py-3 bg-dark text-center text-white">
