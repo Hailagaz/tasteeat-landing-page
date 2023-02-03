@@ -1,9 +1,51 @@
-.footer {
+#body .footer {
 	&__content {
 		height: 300px;
 		background-image: url(../src/images/header_brand.svg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: contain;
+	}
+
+	form {
+		input {
+			height: 70px;
+			background-color: rgba(41, 46, 54, 0.95);
+			color: #ffffff;
+			font-size: 22px;
+			line-height: 33px;
+			letter-spacing: 0.2px;
+			border-radius: 0;
+			border-color: #858585;
+		}
+
+		input::placeholder {
+			color: #ffffff !important;
+		}
+	}
+
+	#footer__submit {
+		height: 70px;
+		max-width: 240px;
+		width: 100%;
+		color: #292E36;
+		background-color: #ffffff;
+		border-color: #858585;
+		box-shadow: inset 0 0 0 0 #ffffff;
+		transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+	}
+
+	#footer__submit:hover {
+		color: #ffffff;
+		box-shadow: inset 100vw 0 0 0 #E1B168;
+	}
+
+	a {
+		color: #ffffff;
+		transition: color .3s ease-in-out,
+	}
+
+	a:hover {
+		color: #E1B168;
 	}
 }
