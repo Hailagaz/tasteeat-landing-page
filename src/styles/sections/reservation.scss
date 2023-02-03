@@ -30,6 +30,14 @@
 		input::placeholder {
 			color: #ffffff !important;
 		}
+
+		input[type="time"]::-webkit-calendar-picker-indicator {
+			background: none;
+		}
+
+		input[type="date"]::-webkit-calendar-picker-indicator {
+			background: none;
+		}
 	}
 
 	#reservation__submit {
@@ -46,9 +54,5 @@
 		color: #ffffff;
 		box-shadow: inset 100vw 0 0 0 #E1B168;
 	}
-	&__invalid {}
-	
-	i {
-		background-color: #ffffff;
-	}
+
 }
