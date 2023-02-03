@@ -7,6 +7,16 @@
 		background-size: contain;
 	}
 
+	&__visual {
+		display: none;
+	}
+
+	&__hours {
+		span {
+			color: #E1B168;
+		}
+	}
+
 	form {
 		input {
 			height: 70px;
@@ -41,11 +51,30 @@
 	}
 
 	a {
-		color: #ffffff;
-		transition: color .3s ease-in-out,
+		color: #E1B168;
+		transition: color .3s ease-in-out;
+		text-decoration: none;
 	}
 
 	a:hover {
-		color: #E1B168;
+		color: #ffffff;
+	}
+
+
+
+
+	@media screen and (max-width:767px) {
+		&__visual {
+			display: block;
+		}
+
+		form {
+			#footer__submit {
+			}
+
+			input::placeholder {
+				// text-align: center;
+			}
+		}
 	}
 }
