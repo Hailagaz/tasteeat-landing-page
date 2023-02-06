@@ -1,0 +1,70 @@
+#body {
+	font-family: 'Josefin Sans', 'Cormorant Infant', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+
+	a,
+	p {
+		font-family: 'Josefin Sans';
+		font-size: 19px;
+		line-height: 30px;
+		letter-spacing: 0.2px;
+
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {}
+
+	h1 {
+		font-family: 'Cormorant Infant';
+		font-size: 100px;
+		line-height: 110px;
+		letter-spacing: 0.2px;
+	}
+
+	h2 {
+		font-family: 'Cormorant Infant';
+		font-size: 40px;
+		line-height: 56px;
+		letter-spacing: 0.2px;
+		color: #292E36;
+	}
+
+	h3 {
+		font-family: 'Cormorant Infant';
+		font-size: 30px;
+		line-height: 39px;
+		letter-spacing: 0.2px;
+	}
+
+	.btn {
+		font-size: 22px;
+		line-height: 33px;
+		letter-spacing: 0.2px;
+		font-family: 'Josefin Sans';
+	}
+
+	.about {
+		color: #555555;
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: #292E36;
+		}
+
+		h3 {
+			font-size: 40px;
+			line-height: 56px;
+		}
+	}
+
+}

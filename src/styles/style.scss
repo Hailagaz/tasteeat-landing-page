@@ -5,6 +5,7 @@
 @import "tools/_bootstrap_change.scss";
 @import "tools/_modal.scss";
 @import "tools/_carousel.scss";
+@import "tools/_fonts.scss";
 
 @import "sections/header.scss";
 @import "sections/welcome.scss";
@@ -23,9 +24,6 @@ body {
 	scroll-behavior: smooth;
 }
 body {
-	font-family: 'Josefin Sans', sans-serif;
-	font-style: normal;
-	font-weight: 400;
 	margin: auto;
 	overflow-x: hidden !important;
 }
