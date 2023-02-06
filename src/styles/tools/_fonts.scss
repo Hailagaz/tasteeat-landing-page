@@ -30,7 +30,6 @@
 		font-size: 15px;
 		line-height: 22px;
 		letter-spacing: 3px;
-		text-transform: uppercase;
 	}
 
 	h3 {
@@ -59,6 +58,17 @@
 		line-height: 33px;
 		letter-spacing: 0.2px;
 		font-family: 'Josefin Sans';
+	}
+
+	.text-gold {
+		color: #e1b168;
+	}
+
+	.text-rewiev {
+		font-family: 'Cormorant Infant';
+		font-size: 24px;
+		line-height: 38px;
+		letter-spacing: 0.25px;
 	}
 
 	.about {
