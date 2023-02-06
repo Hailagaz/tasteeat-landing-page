@@ -16,6 +16,7 @@
 			color: #E1B168;
 		}
 	}
+
 	&__form {
 		max-width: 650px;
 	}
@@ -63,18 +64,22 @@
 		color: #ffffff;
 	}
 
-
+	@media screen and (max-width: 991px) {
+		br {
+			display: none;
+		}
+	}
 
 
 	@media screen and (max-width: 767px) {
 		&__visual {
 			display: block;
 		}
+
 		#footer__submit {
 			max-width: none;
 		}
 	}
-	@media screen and (max-width: 575px) {
-		
-	}
+
+	@media screen and (max-width: 575px) {}
 }

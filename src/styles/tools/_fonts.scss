@@ -71,7 +71,17 @@
 		letter-spacing: 0.25px;
 	}
 
-	.about {
+	.text-offer {
+		font-family: 'Cormorant Infant';
+		font-size: 25px;
+		line-height: 35px;
+	}
+
+	.about,
+	.menu,
+	.offer,
+	.popular,
+	.blog {
 		color: #555555;
 
 		h1,
@@ -83,18 +93,4 @@
 			color: #292E36;
 		}
 	}
-
-	.menu {
-		color: #555555;
-
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
-			color: #292E36;
-		}
-	}
-
 }
