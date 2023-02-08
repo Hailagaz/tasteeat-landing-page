@@ -25,6 +25,12 @@
 		font-size: 100px;
 		line-height: 110px;
 	}
+	@media screen and (max-width: 575px) {
+		h1 {
+			font-size: 50px;
+			line-height: 55px;
+		}
+	}
 
 	h2 {
 		font-size: 15px;
